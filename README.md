@@ -29,14 +29,28 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+map stores the return values forEach returns undefined. Map returns
+a new array forEach mutates the array.
 
 2. What is the difference between a function and a method?
+functions are the fundamental blocks of JS. Methods are used
+within the function. 
 
 3. What is closure?
+The outscope encloses the inner scope which is a closure.
+the inner scope can get access to the outscope but not the other way
+around. So you could create private data inside a closure. 
 
 4. Describe the four rules of the 'this' keyword.
+1. calling 'new' creates a new object
+2. using apply call or bind. this inside the function is the object
+that's passed in as an argument
+3. If a function is called as a method. dot notation is used to invoke
+that function.
+4. invoking this in the global object
 
 5. Why do we need super() in an extended class?
+super to pass the this attributes or props of the parent class.
 
 ## Project Set up
 
